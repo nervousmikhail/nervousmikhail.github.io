@@ -15,10 +15,10 @@ function f1(){
 		out.innerHTML = 'Именно за столько минут Я сделал этот сайт';
 	}
 	else if (num >prNum){
-		out.innerHTML = 'Это слишком много';
+		out.innerHTML = 'Это слишком много, введите меньше';
 	}
 	else {
-		out.innerHTML = 'Это слишком мало';
+		out.innerHTML = 'Это слишком мало, введите больше';
 	}
 	
 	
